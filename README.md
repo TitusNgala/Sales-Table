@@ -63,6 +63,14 @@ All data in this project is manually generated and synthetic, created purely for
 ```sql
 SELECT Product_ID, SUM(Amount) AS total_sales
 FROM Sales
-GROUP BY Product_ID;```
+GROUP BY Product_ID;
+```
+## ✅ **Summary of Results**
+
+Product 10 had the highest total sales.
+
+Sales peaked during July in both 2023 and 2024.
+
+Only one customer (CustomerID = 7) made more than 5 purchases
 
 
